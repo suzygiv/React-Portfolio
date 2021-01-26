@@ -18,8 +18,8 @@ function About() {
                 </Row>
                 <Row>
                     <Col size="md-6">
-                        <h1>Hi! I'm Krista Meiers.</h1>
-                        <h2> I am a Search Engine Optimization Specialist (SEO) and Junior Full Stack Developer.</h2>
+                        
+                      
                         <br></br>
                         <p>
                             Philadelphia-based Frontend Web Developer who likes to spend much of her time with her family, friends, boyfriend & pup.
