@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import Col from "../Col/index";
 import Row from "../Row/index";
 import { Link } from "react-router-dom";
