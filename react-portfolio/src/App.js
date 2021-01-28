@@ -11,6 +11,7 @@ import Font from "./components/Icon/index";
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import "./App.css";
 
 library.add(
   fab,
@@ -26,11 +27,12 @@ function App() {
       <Row/>
         <Nav />
         <Wrapper>
-          <Route exact path="/about" component={About} />
-          <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/Portfolio" component={Portfolio} />
+          <Route exact path="/Contact" component={Contact} />
           <Route exact path="/" component={About} />
         </Wrapper>
+        <br/>
         <Footer />
         <Font />
       </div>

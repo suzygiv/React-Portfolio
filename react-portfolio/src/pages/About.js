@@ -26,7 +26,7 @@ function About() {
                 </Row>
            
 
-                <div className="card border-dark mb-2" div style={{ width: 1000, height: 400}}>
+                 <div className="card border-dark mb-2" div style={{ width: 1000, height: 400}}>
                  <div className="card-header">Let's Connect</div>
                  <div className="contact-body text-dark">
                  <br />

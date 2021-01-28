@@ -17,7 +17,6 @@
   }
 }
 
-
 body {
   padding-left: 10%;
   background-color: white;
@@ -35,23 +34,8 @@ h1 {
   text-align: left;
 }
 
-h2 {
-  padding: 9px;
 
-  margin: 0;
-  font-size: 50px;
 
-  font-family: 'Hind Madurai', sans-serif;
-  color: black;
-  text-align: center;
-}
-
-h5 {
-font-family: 'Hind Madurai', sans-serif;
-font-size: 30px;
-color: black;
-text-align: center;
-}
 
 
 
