@@ -46,7 +46,7 @@ Once 'App listening on PORT: 3000' displays in your terminal, open your browser 
 
 ### React Portfolio Contact Page
 
-![Contact-Page](https://github.com/suzygiv/React-Portfolio/blob/main/react-portfolio/public/assets/Contact-Page-React.PNG)
+![Contact-Page](https://github.com/suzygiv/React-Portfolio/blob/main/public/assets/Contact-Page-React.PNG)
 
 ## License
 ![License](https://img.shields.io/badge/License-mit-blue.svg "License Badge")
