@@ -30,7 +30,7 @@ function About() {
                  <div className="card-header">Let's Connect</div>
                  <div className="contact-body text-dark">
                  <br />
-                     <iframe title="resume" src="../assets/Suzanne-Givnish-Resume - Copy.pdf" width="100%" height="300px"></iframe>
+                     <iframe title="resume" src="./public/assets/Suzanne-Givnish-Resume - Copy.pdf" width="100%" height="300px"></iframe>
                      <strong><p>If your browser does not support this PDF, please click here to download: <a href="../assets/Suzanne-Givnish-Resume.pdf">Download PDF</a></p></strong>
                  </div>
              </div>
