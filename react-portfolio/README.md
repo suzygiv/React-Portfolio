@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# React-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License](https://img.shields.io/badge/License-mit-blue.svg "License Badge")
 
-## Available Scripts
+## Application
+To view my React Portfolio, click here:
 
-In the project directory, you can run:
 
-### `yarn start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Hi, My name is Suzy and welcome to my React Portfolio! This portfolio is used to showcase my work in the Penn LPS Full Stack Coding Boot Camp.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This responsive portfolio runs in the browser and features dynamically updated HTML, Bootstrap CSS framework, and JavaScript all powered by React - all images and layouts are responsive. Within my portfolio, you will find that it contains 3 responsive pages - About, Portfolio, and Contact.
 
-### `yarn test`
+## Table of Contents
+- [Application](#Application)
+- [Description](#Description)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Screenshots](#Screenshots)
+- [License](#License)
+- [Contributors](#Contributors)
+- [GitHub Info](#GitHub) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
+    `npm install react` `npm install react-dom` `npm install react-bootstrap` `npm install react-router-dom` `npm install react-scripts` `npm install web-vitals`
 
-### `yarn build`
+## Usage
+Run the following command at the root of your project:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    `npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once 'App listening on PORT: 3000' displays in your terminal, open your browser and search:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    `http://localhost:3000/`
 
-### `yarn eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### React Portfolio About Page
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![About-Page](https://github.com/suzygiv/Employee-Directory/blob/main/public/Assets/Employee-Directory-Main.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### React Portfolio Page
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Portfolio-Page](https://github.com/suzygiv/Employee-Directory/blob/main/public/Assets/Filter-Last-Name.PNG)
 
-## Learn More
+### React Portfolio Contact Page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Contact-Page](https://github.com/suzygiv/Employee-Directory/blob/main/public/Assets/Filter-Last-Name.PNG)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+![License](https://img.shields.io/badge/License-mit-blue.svg "License Badge")
 
-### Code Splitting
+[MIT License](http://opensource.org/licenses/mit-license.php)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributors
+[Suzanne Givnish](https://github.com/suzygiv).
 
-### Analyzing the Bundle Size
+## Questions?
+✉️ Contact me with any questions: [Email](suzannegivnish@gmail.com), [Github](https://github.com/suzygiv)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## GitHub
+![Image of me](https://avatars0.githubusercontent.com/u/69487481?v=4)
+- [GitHub Profile](https://github.com/suzygiv)

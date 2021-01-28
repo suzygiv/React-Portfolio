@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
+import Header from "./components/Header/index";
 import Nav from "./components/Nav/index";
 import Footer from "./components/Footer/index";
 import Wrapper from "./components/Wrapper/index";
@@ -25,6 +26,7 @@ function App() {
     <Router>
       <div>
       <Row/>
+      <Header />
         <Nav />
         <Wrapper>
           <Route exact path="/About" component={About} />
