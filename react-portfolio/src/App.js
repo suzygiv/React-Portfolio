@@ -7,7 +7,17 @@ import Nav from "./components/Nav/index";
 import Footer from "./components/Footer/index";
 import Wrapper from "./components/Wrapper/index";
 import Row from "./components/Row/index";
+import Font from "./components/Icon/index";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
+library.add(
+  fab,
+  faGithub,
+  faLinkedin,
+  faFacebook
+);
 
 function App() {
   return (
@@ -22,6 +32,7 @@ function App() {
           <Route exact path="/" component={About} />
         </Wrapper>
         <Footer />
+        <Font />
       </div>
     </Router>
   );

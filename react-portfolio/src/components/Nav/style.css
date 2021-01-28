@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
 
 
-.navbar-brand {
+.Navbar.Brand {
     font-family: 'El Messiri', sans-serif;
     background-color: white;
     width: 170px;
@@ -12,40 +12,24 @@
     font-size: 30px;
   }
 
+  .navbar {
+    background-color: white;
+  }
+
   #name{
+      font-family: 'El Messiri', sans-serif;
       font-size: 30px;
   }
   
-  .navbar {
-    border-bottom: 2px solid black;
-  }
-
-
-  ul {
+  .navbarNav {
     font-family: 'Hind Guntur', sans-serif;
     font-size: 16px;
-  }
-  
-  
-  li {
-    font-family: 'Hind Guntur', sans-serif;
     color: black;
-    float: left;
-    position: relative;
-    overflow: hidden;
+    border-bottom: 2px solid black;
+    width: auto;
   }
-  
-  li::after {
-    background-color: black;
-    content: "";
-    width: 0;
-    height: 1px;
-    left: 0;
-    bottom: 0;
-    transition: width 0.35s ease 0s;
-    position: absolute;
-  }
-  
-  li:hover::after {
-    width: 100%;
-  }
+
+ .nav-link{
+  color:black;
+ }
+
