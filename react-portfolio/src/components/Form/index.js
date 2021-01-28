@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Container from "../Container/index";
 import Button from 'react-bootstrap/Button';
+import "./style.css";
 
 class Form extends Component {
   // Setting the component's initial state
@@ -45,6 +46,7 @@ class Form extends Component {
               type="text"
               placeholder="First Name"
             />
+            &nbsp;&nbsp;&nbsp; 
             <input
               value={this.state.lastName}
               name="lastName"
@@ -55,11 +57,11 @@ class Form extends Component {
             <div class="form-group">
             <div className="form-group">
                 <label for="inputEmailAddress">Email Address</label>
-                <input className="form-control" type="text" id="inputEmailAddress" placeholder="Email Address" />
+                <input className="form-control" type="text" id="inputEmailAddress" placeholder="" />
             </div>
-              <label for="exampleFormControlTextarea1">Leave additional Message here:</label>
+              <label for="exampleFormControlTextarea1">Message:</label>
               <input class="form-control" id="exampleFormControlTextarea1" rows="3"
-                placeholder="Please add information about your company and your company's website!">
+                placeholder="">
               </input>
             </div>
             <Button variant="dark" onClick={this.handleFormSubmit}>Submit</Button>

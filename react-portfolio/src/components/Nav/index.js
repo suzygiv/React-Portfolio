@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 
 function Nav() {
 
     return (<>
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
-            <Link className="navbar-brand" to="/">SUZANNE GIVNISH</Link>
+            <Link className="navbar-brand" id="name" to="/">SUZANNE GIVNISH</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -21,7 +22,7 @@ function Nav() {
                 </div>
                 </li>
             </ul>
-        </div>
+            </div>
         </nav>
     </>
     )

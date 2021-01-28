@@ -17,51 +17,11 @@
   }
 }
 
+
 body {
   padding-left: 10%;
   background-color: white;
   font-family: 'Nanum Myeongjo', serif;
-}
-
-.navbar-brand {
-  font-family: 'El Messiri', sans-serif;
-  background-color: white;
-  width: 170px;
-  left: 15px;
-  max-height: 90px; 
-  font-size: 50px;
-}
-
-.navbar {
-  border-bottom: 2px solid black;
-}
-
-ul {
-  font-family: 'Hind Guntur', sans-serif;
-  font-size: 15px;
-}
-
-li {
-  font-family: 'Hind Guntur', sans-serif;
-  color: black;
-  float: left;
-  position: relative;
-  overflow: hidden;
-}
-
-li::after {
-  background-color: black;
-  content: "";
-  width: 0;
-  height: 1px;
-  left: 0;
-  bottom: 0;
-  transition: width 0.35s ease 0s;
-  position: absolute;
-}
-
-li:hover::after {
-  width: 100%;
 }
 
 h1 {
@@ -93,7 +53,5 @@ color: black;
 text-align: center;
 }
 
-p.contact-body {
-  font-family: 'Hind Guntur', sans-serif;
-}
+
 

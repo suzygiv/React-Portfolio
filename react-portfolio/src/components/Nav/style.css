@@ -2,23 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
 
-.Nav {
+
+.navbar-brand {
     font-family: 'El Messiri', sans-serif;
     background-color: white;
     width: 170px;
     left: 15px;
-    max-height: 150px; 
+    max-height: 90px; 
     font-size: 30px;
+  }
+
+  #name{
+      font-size: 30px;
   }
   
   .navbar {
     border-bottom: 2px solid black;
   }
-  
+
+
   ul {
     font-family: 'Hind Guntur', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
   }
+  
   
   li {
     font-family: 'Hind Guntur', sans-serif;

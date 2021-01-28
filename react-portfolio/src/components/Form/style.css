@@ -1,6 +1,19 @@
-form{
-    border: #41004D;
-    border-style: solid;
-    border-width: 5px;
-    background-color: lavender;
+.form{
+    width: 100%;
 }
+
+p.contact-body {
+    font-family: 'Hind Guntur', sans-serif;
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+    width: 75%;
+    background-color: green;
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+    width: 50%;
+  }
+
