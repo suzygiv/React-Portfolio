@@ -38,7 +38,7 @@ Once 'App listening on PORT: 3000' displays in your terminal, open your browser 
 
 ### React Portfolio About Page
 
-![About-Page](https://github.com/suzygiv/React-Portfolio/blob/main/react-portfolio/public/assets/About-Page.PNG)
+![About-Page](https://github.com/suzygiv/React-Portfolio/blob/main/public/assets/About-Page.PNG)
 
 ### React Portfolio Page
 
