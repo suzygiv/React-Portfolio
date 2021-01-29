@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Eat Da Burger!",
-      "image": "../assets/Eat-Da-Burger.PNG",
+      "image": "../images/Eat-Da-Burger.PNG",
       "description": "Eat-Da-Burger! is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).",
       "Deployed": "https://suzy-eat-da-burger.herokuapp.com/",
       "Github": "https://github.com/suzygiv/Eat-Da-Burger"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "title": "JavaScript Quiz",
-        "image": "../assets/code-quiz.PNG",
+        "imageThree": "../images/code-quiz.PNG",
         "description": "Responsive web application that gives users a timed quiz and records high scores.",
         "Deployed": "https://suzygiv.github.io/Code-Quiz/",
         "Github": "https://github.com/suzygiv/Code-Quiz"

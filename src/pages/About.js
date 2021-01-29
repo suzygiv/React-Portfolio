@@ -2,6 +2,8 @@ import React from "react";
 import Container from "../components/Container/index";
 import Row from "../components/Row/index";
 import Col from "../components/Col/index";
+import meImage from "../images/me3.jpg"
+import resume from "../images/Suzanne-Givnish-Resume - Copy.pdf"
 
 
 function About() {
@@ -11,7 +13,7 @@ function About() {
                 <Row>
                     <Col size="md-12"></Col>
                         <img class="img"
-                            src="../assets/me3.jpg"
+                            src={meImage}
                             alt="Suzanne Givnish" height="300" width="250">
                         </img>
                         <Col size="md-8">
@@ -31,8 +33,8 @@ function About() {
                  <div className="card-header">Let's Connect</div>
                  <div className="contact-body text-dark">
                  <br />
-                     <iframe title="resume" src="../assets/Suzanne-Givnish-Resume - Copy.pdf" width="100%" height="300px"></iframe>
-                     <strong><p>If your browser does not support this PDF, please click here to download: <a href="../assets/Suzanne-Givnish-Resume.pdf">Download PDF</a></p></strong>
+                     <iframe title="resume" src={resume} width="100%" height="300px"></iframe>
+                     <strong><p>If your browser does not support this PDF, please click here to download: <a href={resume}>Download PDF</a></p></strong>
                  </div>
              </div>
             </Container>

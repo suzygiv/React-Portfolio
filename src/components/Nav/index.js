@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import Navbar from 'react-bootstrap/Navbar';
 
-
 function Nav() {
 
     return (<>
