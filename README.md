@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/License-mit-blue.svg "License Badge")
 
 ## Application
-To view my React Portfolio, click here:
+To view my React Portfolio, click here: https://suzygiv.github.io/React-Portfolio/
 
 
 ## Description
