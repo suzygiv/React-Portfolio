@@ -3,6 +3,7 @@ import Container from "../components/Container/index";
 import Row from "../components/Row/index";
 import Col from "../components/Col/index";
 
+
 function About() {
     return (
         <div>
