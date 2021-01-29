@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/About" component={About} />
           <Route exact path="/Portfolio" component={Portfolio} />
           <Route exact path="/Contact" component={Contact} />
-          <Route exact path="/Portfolio-React" component={About} />
+          <Route exact path="/React-Portfolio" component={About} />
           <Route exact path="/" component={About} />
         </Wrapper>
         <br/>
