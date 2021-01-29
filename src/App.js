@@ -13,6 +13,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import "./App.css";
 
+
+
 library.add(
   fab,
   faGithub,

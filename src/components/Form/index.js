@@ -2,11 +2,14 @@ import React, { Component } from "react";
 import Container from "../Container/index";
 import Button from 'react-bootstrap/Button';
 
+
 class Form extends Component {
   // Setting the component's initial state
   state = {
     firstName: "",
     lastName: "",
+    email: "",
+    message: ""
   };
 
   handleInputChange = event => {
@@ -26,49 +29,64 @@ class Form extends Component {
     this.setState({
       firstName: "",
       lastName: "",
+      email: "",
+      message:""
     });
   };
 
   render() {
-    // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
       <div>
         <Container>
-          <h1>
-            CONTACT
-          </h1>
-          <form className="form">
-            <input
-              value={this.state.firstName}
-              name="firstName"
-              onChange={this.handleInputChange}
-              type="text"
-              placeholder="First Name"
-            />
-            &nbsp;&nbsp;&nbsp; 
-            <input
-              value={this.state.lastName}
-              name="lastName"
-              onChange={this.handleInputChange}
-              type="text"
-              placeholder="Last Name"
-            />
-            <div class="form-group">
-            <div className="form-group">
-                <label for="inputEmailAddress">Email Address</label>
-                <input className="form-control" type="text" id="inputEmailAddress" placeholder="" />
-            </div>
-              <label for="exampleFormControlTextarea1">Message:</label>
-              <input class="form-control" id="exampleFormControlTextarea1" rows="3"
-                placeholder="">
-              </input>
-            </div>
-            <Button variant="dark" onClick={this.handleFormSubmit}>Submit</Button>
-          </form>
+        <form
+          className="ui form"
+          id={this.props.id}
+          name={this.props.name}
+          method={this.props.method}
+          action={this.props.action}
+          >
+          <textarea
+            id="firstName"
+            name="name"
+            onChange={this.handleInputChange.bind(this)}
+            placeholder="First Name"
+            required
+            value={this.state.name}
+            style={{ width: "100%" }}
+            rows={1}
+          />
+          <textarea
+            id="lastName"
+            name="name"
+            onChange={this.handleInputChange.bind(this)}
+            placeholder="Last Name"
+            required
+            value={this.state.name}
+            style={{ width: "100%" }}
+            rows={1}
+          />
+          <br />
+          <div className="form-group">
+              <label for="inputEmailAddress">Email Address</label>
+              <input className="form-control" type="text" id="inputEmailAddress" placeholder="" />
+           </div>
+          <textarea
+            id="message"
+            name="message"
+            onChange={this.handleInputChange.bind(this)}
+            placeholder="what would you like to chat about?"
+            required
+            value={this.state.message}
+            style={{ width: "100%", height: "250px" }}
+          />
+          <br />
+          <Button variant="dark" onClick={this.handleFormSubmit}>Submit</Button>
+        </form>
         </Container>
       </div>
     );
-  }
-}
+          }
+        }
+
 
 export default Form;
