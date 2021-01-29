@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Employee Directory",
-        "image": "../images/Employee-Directory-Main.PNG",
+        "image": "../images/employee.PNG",
         "description": "An Employee Directory application created with React that allows the user to view their entire employee directory at once so that they have quick access to their information.",
         "Deployed": "https://suzygiv.github.io/Employee-Directory/",
         "Github": "https://github.com/suzygiv/Employee-Directory"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Progressive Budget",
-        "image": "../images/Progressive-Budget.PNG",
+        "image": "../images/progressive.PNG",
         "description": "A Budget Tracker application that allows the user to add expenses and deposits to their budget with or without data/internet connection.",
         "Deployed": "https://powerful-anchorage-42548.herokuapp.com/",
         "Github": "https://github.com/suzygiv/Progressive-Budget"
