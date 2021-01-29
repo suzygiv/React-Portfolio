@@ -47,21 +47,21 @@ class Form extends Component {
           >
           <textarea
             id="firstName"
-            name="name"
+            name="firstName"
             onChange={this.handleInputChange.bind(this)}
             placeholder="First Name"
             required
-            value={this.state.name}
+            value={this.state.firstName}
             style={{ width: "100%" }}
             rows={1}
           />
           <textarea
             id="lastName"
-            name="name"
+            name="lastName"
             onChange={this.handleInputChange.bind(this)}
             placeholder="Last Name"
             required
-            value={this.state.name}
+            value={this.state.lastName}
             style={{ width: "100%" }}
             rows={1}
           />
