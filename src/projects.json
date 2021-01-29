@@ -10,7 +10,7 @@
     {
         "id": 2,
         "title": "Employee Directory",
-        "image": "../assets/Employee-Directory-Main.png",
+        "image": "../images/Employee-Directory-Main.PNG",
         "description": "An Employee Directory application created with React that allows the user to view their entire employee directory at once so that they have quick access to their information.",
         "Deployed": "https://suzygiv.github.io/Employee-Directory/",
         "Github": "https://github.com/suzygiv/Employee-Directory"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "title": "Note Taker",
-        "image": "../assets/note-taker-main.PNG",
+        "image": "../images/note-taker-main.PNG",
         "description": "An application that can be used to write, save, and delete notes. This application uses an express backend and saves and retrieves note data from a JSON file.",
         "Deployed": "https://suzy-note-taker.herokuapp.com/",
         "Github": "https://github.com/suzygiv/Note-Taker"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "title": "Password Generator",
-        "image": "../assets/Password-Generator-App.png",
+        "image": "../images/Password-Generator-App.png",
         "description": "Web application that generates a random password based on user-selected criteria.",
         "Deployed": "https://suzygiv.github.io/Password-Generator/",
         "Github": "https://github.com/suzygiv/Password-Generator"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "title": "Progressive Budget",
-        "image": "../assets/Progressive-Budget.png",
+        "image": "../images/Progressive-Budget.PNG",
         "description": "A Budget Tracker application that allows the user to add expenses and deposits to their budget with or without data/internet connection.",
         "Deployed": "https://powerful-anchorage-42548.herokuapp.com/",
         "Github": "https://github.com/suzygiv/Progressive-Budget"
@@ -50,14 +50,14 @@
     {
         "id": 7,
         "title": "README.md Generator",
-        "image": "../assets/Sample-README2.md-file.png",
+        "image": "../images/Sample-README2.md-file.png",
         "description": "A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.",
         "Github": "https://github.com/suzygiv/Professional-README-Generator"
     },
     {
         "id": 8,
         "title": "Travel Companion",
-        "image": "../assets/landing-page.png",
+        "image": "../images/landing-page.png",
         "description": "Web application used to simulate the cultural experience of traveling while stuck at home in quarantine.",
         "Deployed": "https://dandandanoneil.github.io/travel-companion/index.html",
         "Github": "https://github.com/dandandanoneil/travel-companion"
@@ -65,7 +65,7 @@
     {
         "id": 9,
         "title": "Weather Dashboard",
-        "image": "../assets/weather-dashboard.PNG",
+        "image": "../images/weather-dashboard.PNG",
         "description": "Web application using the OpenWeather API to display current and future weather data.",
         "Deployed": "https://suzygiv.github.io/Weather-Dashboard/",
         "Github": "https://github.com/suzygiv/Weather-Dashboard"
@@ -73,7 +73,7 @@
     {
         "id": 10,
         "title": "Work Day Scheduler",
-        "image": "../assets/WorkDayScheduler.PNG",
+        "image": "../images/WorkDayScheduler.PNG",
         "description": "A simple calendar application that allows a user to save events for each hour of the day.",
         "Deployed": "https://suzygiv.github.io/Work-Day-Scheduler/",
         "Github": "https://github.com/suzygiv/Work-Day-Scheduler"
@@ -81,7 +81,7 @@
     {
         "id": 11,
         "title": "WrappIt",
-        "image": "../assets/WrappIt01.png",
+        "image": "../images/WrappIt01.png",
         "description": "Web application that helps relieve the angst of trying to figure out what to buy our loved ones for the holidays.",
         "Deployed": "https://intense-falls-86763.herokuapp.com/",
         "Github": "https://github.com/suzygiv/WrappIt"
