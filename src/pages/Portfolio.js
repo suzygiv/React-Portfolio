@@ -1,12 +1,13 @@
+
 import React, { Component } from "react";
 import Card from "../components/Card/index";
 import Wrapper from "../components/Wrapper/index";
-import project from "../projects.json";
+import projects from "../data/projects";
 
 class App extends Component {
   // Setting this.state.project to the projects json array
   state = {
-    project
+    projects
   }
 
   // Map over this.state.project and render a project component for each project object
@@ -15,15 +16,13 @@ class App extends Component {
         
       <Wrapper>
           <br/>
-        {this.state.project.map(project => (
+        {this.state.projects.map(projects => (
           <Card
-            id={project.id}
-            key={project.id}
-            title={project.title}
-            image={project.image}
-            description={project.description}
-            Deployed={project.Deployed}
-            Github={project.Github}
+            title={projects.title}
+            image={projects.image}
+            description={projects.description}
+            Deployed={projects.Deployed}
+            Github={projects.Github}
           />
         ))}
       </Wrapper>
